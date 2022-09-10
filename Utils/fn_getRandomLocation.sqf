@@ -16,7 +16,7 @@
 		["NameCity", "NameVillage"] call ERR_fnc_getRandomLocation
 */
 
-_types = param [0, ["NameCity", "NameVillage"], [""]];
+_types = param [0, ["NameCity", "NameVillage"], [[""]]];
 
 _center = [(worldSize / 2), (worldSize / 2)];
 
